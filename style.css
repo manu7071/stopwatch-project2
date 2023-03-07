@@ -1,0 +1,43 @@
+/* fixing the elements */
+body{
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: #d7dfe4;
+   
+}
+/* styling the hour,min and sec */
+.digit{
+    font-size: 130px;
+    font-size: bold;
+}
+.txt{
+    font-size: 130px;
+    font-weight: 300;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 50px;
+}
+/* styling the buttons  */
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+/* giving the color in the button */
+#start{
+  background: #1abc9c;
+} #stop{
+  background: #3498db;
+}
+#reset{
+  background: #e74c3c;
+}
